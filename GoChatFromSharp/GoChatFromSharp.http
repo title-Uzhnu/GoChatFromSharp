@@ -1,0 +1,6 @@
+@GoChatFromSharp_HostAddress = http://localhost:5192
+
+GET {{GoChatFromSharp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

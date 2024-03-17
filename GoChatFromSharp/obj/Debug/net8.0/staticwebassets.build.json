@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "gIy03V6DIXJBOCKkVrOwJ9qrBG4suaY8uxgyMol5bcE=",
+  "Source": "GoChatFromSharp",
+  "BasePath": "_content/GoChatFromSharp",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
