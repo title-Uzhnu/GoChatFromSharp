@@ -1,0 +1,23 @@
+.chat-container {
+  display: block;
+  height: max-content;
+}
+
+.user-actions {
+  display: grid;
+  grid-template-columns: 8fr 2fr;
+  height: 20px;
+  width: 100%;
+}
+
+.user-input {
+  grid-column: 1;
+}
+
+.user-input textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  grid-column: 2;
+}

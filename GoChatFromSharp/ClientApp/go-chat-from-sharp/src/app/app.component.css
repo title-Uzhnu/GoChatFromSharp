@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+
+.main-container {
+  display: grid;
+  height: 100%;
+  grid-template-columns: 2fr 6fr 2fr;
+}
+
+.friends-container {
+  background-color: #69f0ae;
+  border-radius: 15px;
+  display: block;
+  grid-column: 1;
+}
+
+.chat-container {
+  display: block;
+  grid-column: 2;
+  width: 100%;
+}
+
+.settings-container {
+  background-color: #69f0ae;
+  border-radius: 15px;
+  display: block;
+  grid-column: 3;
+}

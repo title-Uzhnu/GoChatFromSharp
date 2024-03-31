@@ -1,0 +1,16 @@
+<div class="chat-container">
+  <div *ngFor="let message of messageList">
+    <p><b>{{message.sender}}</b></p>
+    <p>{{message.text}}</p>
+    <p><i>{{message.time}}</i></p>
+  </div>
+  <input matInput type="search" placeholder="Search message" [(ngModel)]="searchMessage">
+  <button *ngFor="let message of (messageList | filter:searchMessage)" (click)="openContextMenu(message.id)">{{message}}</button>
+</div>
+
+<div class="user-actions">
+  <form class="user-input">
+    <textarea matInput [(ngModel)]="messageInput" placeholder="Hello!"></textarea>
+  </form>
+  <button class="submit-btn" mat-flat-button color="#69f0ae" (click)="sendMessage()">Send</button>
+</div>
