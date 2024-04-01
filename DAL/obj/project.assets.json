@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\University\\Технології програмування та створення ПП\\GoChatFromSharp\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\University\\Технології програмування та створення ПП\\GoChatFromSharp\\DAL\\DAL.csproj",
+      "projectPath": "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\rabin\\.nuget\\packages\\",
-      "outputPath": "D:\\University\\Технології програмування та створення ПП\\GoChatFromSharp\\DAL\\obj\\",
+      "outputPath": "D:\\PP\\GoChatFromSharp\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

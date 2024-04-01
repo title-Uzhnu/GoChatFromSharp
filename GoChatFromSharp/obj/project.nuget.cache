@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gKFfTM41wBdpKRkAzSSSYlmgZ7SLun4FdgKVV62jyTmpkyPWafPDTvEcHWqsLxEqcyJ2hm8SAS2A8rPhHgVF4A==",
+  "dgSpecHash": "I291298ZnXKGTkbBCuJoyVQjWAdecOeJ/BUQaWPBlzB2oGX82EmOnHEhI8JxdqwpzQCeiRaQLTLS9UKZDtLeiQ==",
   "success": true,
-  "projectFilePath": "D:\\University\\Технології програмування та створення ПП\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj",
+  "projectFilePath": "D:\\PP\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rabin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\rabin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

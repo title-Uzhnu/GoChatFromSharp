@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GoChatFromSharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7631d8542efde1780dc5076fd9906e29bf5f0c9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e514cc226abd7661912acfe66cf69b175160886")]
 [assembly: System.Reflection.AssemblyProductAttribute("GoChatFromSharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GoChatFromSharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

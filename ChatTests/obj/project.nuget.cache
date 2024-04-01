@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RFsauXkb7C+zfuZ5e2fGkKRcAe6tydOPi2YEZhNoju3KskS53cR7bAwvq78I+dHO85iEbwxF66bvgROWXUwUag==",
+  "dgSpecHash": "Wi49EXyIL4FIVxq84RFGkWpGAqXGF9/OxDhKpViH0iuXkhLdTYtj2dOxhcl1AiQ0/nASQEzrnLOIMMR8u/7pmw==",
   "success": true,
-  "projectFilePath": "D:\\University\\Технології програмування та створення ПП\\GoChatFromSharp\\ChatTests\\ChatTests.csproj",
+  "projectFilePath": "D:\\PP\\GoChatFromSharp\\ChatTests\\ChatTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rabin\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\rabin\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
