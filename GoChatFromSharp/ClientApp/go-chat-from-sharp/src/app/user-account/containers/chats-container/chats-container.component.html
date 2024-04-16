@@ -1,0 +1,5 @@
+<button (click)="goToFriends()" class="switch-btn">Friends</button>
+<button (click)="goToGroups()" class="switch-btn">Groups</button>
+
+<app-friends-container *ngIf="friendChatsOpen" class="friends-container"></app-friends-container>
+<app-group-chats-container *ngIf="!friendChatsOpen" class="group-chats-container"></app-group-chats-container>

@@ -1,7 +1,7 @@
 <h2>Friends</h2>
 <div>
-  <app-friend-card *ngFor="let friend of friendsList" cardFriend="friend">
-    <h3>{{friend.firstName}} {{friend.lastName}}</h3>
+  <app-friend-card *ngFor="let friend of friendsList" friendCard="friend">
+    <h3>{{friend.username}}</h3>
     <p>{{friend.email}}</p>
   </app-friend-card>
 </div>

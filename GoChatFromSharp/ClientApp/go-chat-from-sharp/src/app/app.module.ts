@@ -21,14 +21,21 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatInputModule } from '@angular/material/input';
+import { GroupChatCardComponent } from './user-account/components/group-chat-card/group-chat-card.component';
+import { ChatsContainerComponent } from './user-account/containers/chats-container/chats-container.component';
+import { GroupChatsContainerComponent } from './user-account/containers/group-chats-container/group-chats-container.component';
+import { ChatsControlService } from './user-account/resources/chats-control.service';
 
 @NgModule({
   declarations: [
     AppComponent,
 
     FriendCardComponent,
+    GroupChatCardComponent,
     SettingsContainerComponent,
     FriendsContainerComponent,
+    ChatsContainerComponent,
+    GroupChatsContainerComponent,
 
     ActiveChatComponent,
     ChatContainerComponent,
@@ -54,7 +61,8 @@ import { MatInputModule } from '@angular/material/input';
   providers: [
     ChatService,
     AuthService,
-    SettingsService
+    SettingsService,
+    ChatsControlService
   ],
   bootstrap: [AppComponent]
 })

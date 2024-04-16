@@ -7,7 +7,7 @@ import { IFriend } from '../../../models/IFriend';
   styleUrls: ['./friend-card.component.css']
 })
 export class FriendCardComponent implements OnInit {
-  @Input("friend") cardFriend!: IFriend;
+  @Input("friend") friendCard!: IFriend;
 
 
   constructor() { }

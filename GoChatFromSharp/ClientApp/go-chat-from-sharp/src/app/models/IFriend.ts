@@ -1,6 +1,6 @@
 export interface IFriend {
-  firstName: string,
-  lastName: string,
+  id: number,
+  username: string,
   email: string,
   phone: string,
 }
