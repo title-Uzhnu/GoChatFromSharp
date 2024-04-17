@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IUserSettings } from '../../../models/IUserSettings';
+import { SettingsService } from '../../resources/settings.service';
 
 @Component({
   selector: 'app-settings-container',
@@ -8,6 +9,7 @@ import { IUserSettings } from '../../../models/IUserSettings';
 })
 export class SettingsContainerComponent implements OnInit {
   public userSettings: IUserSettings = {
+    id: 0,
     nightMode: false,
     language: "en-us",
     synchronization: false
@@ -22,9 +24,15 @@ export class SettingsContainerComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor(private settingsService: SettingsService) { }
 
   ngOnInit() {
+  }
+
+  public saveNewSettings(){
+    this.settingsService.editSettings(this.userSettings).subscribe(result => {
+      result ? "Settings edited successfully!" : "Smth went wrong";
+    });
   }
 
 }

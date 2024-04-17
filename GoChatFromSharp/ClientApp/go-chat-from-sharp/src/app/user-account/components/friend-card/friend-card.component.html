@@ -1,3 +1,5 @@
 <div class="friend-container">
-  <h3></h3>
+  <h3>{{friendCard.username}}</h3>
+  <p>{{friendCard.email}}</p>
+  <button mat-button (click)="deleteUserFromFriends(friendCard.id)">Delete</button>
 </div>

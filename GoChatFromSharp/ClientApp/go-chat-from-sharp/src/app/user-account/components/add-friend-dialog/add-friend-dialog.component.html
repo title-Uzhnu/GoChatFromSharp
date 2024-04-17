@@ -1,0 +1,7 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Email</mat-label>
+    <input type="email" matInput placeholder="Ex. pat@example.com" #emailInput>
+    <button mat-button (click)="sendFriendRequest(emailInput.value)">Send friend request</button>
+  </mat-form-field>
+</form>

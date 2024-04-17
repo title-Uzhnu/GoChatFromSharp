@@ -1,8 +1,7 @@
 <h2>Friends</h2>
+<button mat-button (click)="addFriendDialog()">Add</button>
 <div>
   <app-friend-card *ngFor="let friend of friendsList" friendCard="friend">
-    <h3>{{friend.username}}</h3>
-    <p>{{friend.email}}</p>
   </app-friend-card>
 </div>
 

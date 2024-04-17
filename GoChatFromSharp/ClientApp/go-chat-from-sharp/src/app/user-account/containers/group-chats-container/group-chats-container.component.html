@@ -1,7 +1,7 @@
 <h2>Groups</h2>
+<button mat-button>Add</button>
 <div>
-  <app-friend-card *ngFor="let group of groupChatsList" groupCard="group">
-    <h3>{{group.title}}</h3>
-  </app-friend-card>
+  <app-group-chat-card *ngFor="let group of groupChatsList" groupCard="group">
+  </app-group-chat-card>
 </div>
 

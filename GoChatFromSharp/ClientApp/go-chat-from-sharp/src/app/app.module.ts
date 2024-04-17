@@ -57,6 +57,7 @@ import { ChatsControlService } from './user-account/resources/chats-control.serv
     MatFormFieldModule,
     MatSelectModule,
     MatButtonModule,
+
   ],
   providers: [
     ChatService,
