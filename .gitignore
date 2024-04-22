@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/GoChatFromSharp
+/DataTests/obj/Debug/net8.0
+/GoChatFromSharp/.vs/GoChatFromSharp/FileContentIndex
+/.vs/ProjectEvaluation
