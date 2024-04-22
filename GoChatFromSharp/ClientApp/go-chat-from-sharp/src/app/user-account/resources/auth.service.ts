@@ -7,7 +7,7 @@ import { Observable, tap } from 'rxjs';
   providedIn: 'root'
 })
 export class AuthService {
-  public baseUrl: string = "https://localhost:4200/api/user/";
+  public baseUrl: string = "https://localhost:7049/api/user/";
   public token: string = "";
 
   httpOptions = {

@@ -1,6 +1,21 @@
+using GoChatFromSharp.Models;
+using Microsoft.AspNetCore.Identity;
+using GoChatFromSharp;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+var services = new ServiceCollection();
+services.AddIdentity<UserModel, IdentityRole>()
+        .AddDefaultTokenProviders();
+
+services.AddScoped<UserManager<UserModel>>();
+services.AddScoped<SignInManager<LoginModel>>();
+services.AddScoped<SignInManager<RegModel>>();
+
+var serviceProvider = services.BuildServiceProvider();
+var identityServer = serviceProvider.GetService<IIdentityServerBuilder>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

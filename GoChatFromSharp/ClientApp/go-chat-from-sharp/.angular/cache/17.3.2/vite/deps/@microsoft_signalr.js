@@ -84,7 +84,7 @@ var require_eventsource = __commonJS({
   }
 });
 
-// ../node_modules/@microsoft/signalr/dist/esm/Errors.js
+// ../../node_modules/@microsoft/signalr/dist/esm/Errors.js
 var HttpError = class extends Error {
   /** Constructs a new instance of {@link @microsoft/signalr.HttpError}.
    *
@@ -188,7 +188,7 @@ var AggregateErrors = class extends Error {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/HttpClient.js
+// ../../node_modules/@microsoft/signalr/dist/esm/HttpClient.js
 var HttpResponse = class {
   constructor(statusCode, statusText, content) {
     this.statusCode = statusCode;
@@ -226,7 +226,7 @@ var HttpClient = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/ILogger.js
+// ../../node_modules/@microsoft/signalr/dist/esm/ILogger.js
 var LogLevel;
 (function(LogLevel2) {
   LogLevel2[LogLevel2["Trace"] = 0] = "Trace";
@@ -238,7 +238,7 @@ var LogLevel;
   LogLevel2[LogLevel2["None"] = 6] = "None";
 })(LogLevel || (LogLevel = {}));
 
-// ../node_modules/@microsoft/signalr/dist/esm/Loggers.js
+// ../../node_modules/@microsoft/signalr/dist/esm/Loggers.js
 var NullLogger = class {
   constructor() {
   }
@@ -249,7 +249,7 @@ var NullLogger = class {
 };
 NullLogger.instance = new NullLogger();
 
-// ../node_modules/@microsoft/signalr/dist/esm/Utils.js
+// ../../node_modules/@microsoft/signalr/dist/esm/Utils.js
 var VERSION = "8.0.0";
 var Arg = class {
   static isRequired(val, name) {
@@ -465,7 +465,7 @@ function getGlobalThis() {
   throw new Error("could not find global");
 }
 
-// ../node_modules/@microsoft/signalr/dist/esm/DynamicImports.js
+// ../../node_modules/@microsoft/signalr/dist/esm/DynamicImports.js
 function configureFetch(obj) {
   if (typeof fetch === "undefined" || Platform.isNode) {
     obj._jar = new (require_tough_cookie()).CookieJar();
@@ -493,7 +493,7 @@ function getEventSource() {
   return require_eventsource();
 }
 
-// ../node_modules/@microsoft/signalr/dist/esm/FetchHttpClient.js
+// ../../node_modules/@microsoft/signalr/dist/esm/FetchHttpClient.js
 var FetchHttpClient = class extends HttpClient {
   constructor(logger) {
     super();
@@ -616,7 +616,7 @@ function deserializeContent(response, responseType) {
   return content;
 }
 
-// ../node_modules/@microsoft/signalr/dist/esm/XhrHttpClient.js
+// ../../node_modules/@microsoft/signalr/dist/esm/XhrHttpClient.js
 var XhrHttpClient = class extends HttpClient {
   constructor(logger) {
     super();
@@ -689,7 +689,7 @@ var XhrHttpClient = class extends HttpClient {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/DefaultHttpClient.js
+// ../../node_modules/@microsoft/signalr/dist/esm/DefaultHttpClient.js
 var DefaultHttpClient = class extends HttpClient {
   /** Creates a new instance of the {@link @microsoft/signalr.DefaultHttpClient}, using the provided {@link @microsoft/signalr.ILogger} to log messages. */
   constructor(logger) {
@@ -720,7 +720,7 @@ var DefaultHttpClient = class extends HttpClient {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/TextMessageFormat.js
+// ../../node_modules/@microsoft/signalr/dist/esm/TextMessageFormat.js
 var TextMessageFormat = class _TextMessageFormat {
   static write(output) {
     return `${output}${_TextMessageFormat.RecordSeparator}`;
@@ -737,7 +737,7 @@ var TextMessageFormat = class _TextMessageFormat {
 TextMessageFormat.RecordSeparatorCode = 30;
 TextMessageFormat.RecordSeparator = String.fromCharCode(TextMessageFormat.RecordSeparatorCode);
 
-// ../node_modules/@microsoft/signalr/dist/esm/HandshakeProtocol.js
+// ../../node_modules/@microsoft/signalr/dist/esm/HandshakeProtocol.js
 var HandshakeProtocol = class {
   // Handshake request is always JSON
   writeHandshakeRequest(handshakeRequest) {
@@ -775,7 +775,7 @@ var HandshakeProtocol = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/IHubProtocol.js
+// ../../node_modules/@microsoft/signalr/dist/esm/IHubProtocol.js
 var MessageType;
 (function(MessageType2) {
   MessageType2[MessageType2["Invocation"] = 1] = "Invocation";
@@ -789,7 +789,7 @@ var MessageType;
   MessageType2[MessageType2["Sequence"] = 9] = "Sequence";
 })(MessageType || (MessageType = {}));
 
-// ../node_modules/@microsoft/signalr/dist/esm/Subject.js
+// ../../node_modules/@microsoft/signalr/dist/esm/Subject.js
 var Subject = class {
   constructor() {
     this.observers = [];
@@ -819,7 +819,7 @@ var Subject = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/MessageBuffer.js
+// ../../node_modules/@microsoft/signalr/dist/esm/MessageBuffer.js
 var MessageBuffer = class {
   constructor(protocol, connection, bufferSize) {
     this._bufferSize = 1e5;
@@ -980,7 +980,7 @@ var BufferedItem = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/HubConnection.js
+// ../../node_modules/@microsoft/signalr/dist/esm/HubConnection.js
 var DEFAULT_TIMEOUT_IN_MS = 30 * 1e3;
 var DEFAULT_PING_INTERVAL_IN_MS = 15 * 1e3;
 var DEFAULT_STATEFUL_RECONNECT_BUFFER_SIZE = 1e5;
@@ -1800,7 +1800,7 @@ var HubConnection = class _HubConnection {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/DefaultReconnectPolicy.js
+// ../../node_modules/@microsoft/signalr/dist/esm/DefaultReconnectPolicy.js
 var DEFAULT_RETRY_DELAYS_IN_MILLISECONDS = [0, 2e3, 1e4, 3e4, null];
 var DefaultReconnectPolicy = class {
   constructor(retryDelays) {
@@ -1811,13 +1811,13 @@ var DefaultReconnectPolicy = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/HeaderNames.js
+// ../../node_modules/@microsoft/signalr/dist/esm/HeaderNames.js
 var HeaderNames = class {
 };
 HeaderNames.Authorization = "Authorization";
 HeaderNames.Cookie = "Cookie";
 
-// ../node_modules/@microsoft/signalr/dist/esm/AccessTokenHttpClient.js
+// ../../node_modules/@microsoft/signalr/dist/esm/AccessTokenHttpClient.js
 var AccessTokenHttpClient = class extends HttpClient {
   constructor(innerClient, accessTokenFactory) {
     super();
@@ -1858,7 +1858,7 @@ var AccessTokenHttpClient = class extends HttpClient {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/ITransport.js
+// ../../node_modules/@microsoft/signalr/dist/esm/ITransport.js
 var HttpTransportType;
 (function(HttpTransportType2) {
   HttpTransportType2[HttpTransportType2["None"] = 0] = "None";
@@ -1872,7 +1872,7 @@ var TransferFormat;
   TransferFormat2[TransferFormat2["Binary"] = 2] = "Binary";
 })(TransferFormat || (TransferFormat = {}));
 
-// ../node_modules/@microsoft/signalr/dist/esm/AbortController.js
+// ../../node_modules/@microsoft/signalr/dist/esm/AbortController.js
 var AbortController2 = class {
   constructor() {
     this._isAborted = false;
@@ -1894,7 +1894,7 @@ var AbortController2 = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/LongPollingTransport.js
+// ../../node_modules/@microsoft/signalr/dist/esm/LongPollingTransport.js
 var LongPollingTransport = class {
   // This is an internal type, not exported from 'index' so this is really just internal.
   get pollAborted() {
@@ -2048,7 +2048,7 @@ var LongPollingTransport = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/ServerSentEventsTransport.js
+// ../../node_modules/@microsoft/signalr/dist/esm/ServerSentEventsTransport.js
 var ServerSentEventsTransport = class {
   constructor(httpClient, accessToken, logger, options) {
     this._httpClient = httpClient;
@@ -2140,7 +2140,7 @@ var ServerSentEventsTransport = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/WebSocketTransport.js
+// ../../node_modules/@microsoft/signalr/dist/esm/WebSocketTransport.js
 var WebSocketTransport = class {
   constructor(httpClient, accessTokenFactory, logger, logMessageContent, webSocketConstructor, headers) {
     this._logger = logger;
@@ -2274,7 +2274,7 @@ var WebSocketTransport = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/HttpConnection.js
+// ../../node_modules/@microsoft/signalr/dist/esm/HttpConnection.js
 var MAX_REDIRECTS = 100;
 var HttpConnection = class {
   constructor(url, options = {}) {
@@ -2773,7 +2773,7 @@ var PromiseSource = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/JsonHubProtocol.js
+// ../../node_modules/@microsoft/signalr/dist/esm/JsonHubProtocol.js
 var JSON_HUB_PROTOCOL_NAME = "json";
 var JsonHubProtocol = class {
   constructor() {
@@ -2877,7 +2877,7 @@ var JsonHubProtocol = class {
   }
 };
 
-// ../node_modules/@microsoft/signalr/dist/esm/HubConnectionBuilder.js
+// ../../node_modules/@microsoft/signalr/dist/esm/HubConnectionBuilder.js
 var LogLevelNameMapping = {
   trace: LogLevel.Trace,
   debug: LogLevel.Debug,

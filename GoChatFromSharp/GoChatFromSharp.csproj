@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="IdentityServer4" Version="4.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,8 +17,26 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include=".vs\sd\" />
     <Folder Include="Controllers\" />
     <Folder Include="ClientApp\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include=".vs\GoChatFromSharp\config\applicationhost.config" />
+    <None Include=".vs\GoChatFromSharp\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\411e3f7d-e75a-42ed-9228-535b9f9de52a.vsidx" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\594dc3e0-fe65-4150-aabc-7f217fe58e8d.vsidx" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\673fa7c8-c2b2-4e03-a252-911be7537174.vsidx" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\75e4d98d-b547-4859-9e0e-915719de5574.vsidx" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\a2223403-abcd-4219-a2b2-34d39bcacb76.vsidx" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\aa7f7590-3de1-46f3-99f1-9a0b0d7a464c.vsidx" />
+    <None Include=".vs\GoChatFromSharp\FileContentIndex\dc6cc9d3-2072-4167-ad40-1bedf6f603af.vsidx" />
+    <None Include=".vs\GoChatFromSharp\v17\.futdcache.v2" />
+    <None Include=".vs\GoChatFromSharp\v17\TestStore\0\000.testlog" />
+    <None Include=".vs\GoChatFromSharp\v17\TestStore\0\testlog.manifest" />
+    <None Include=".vs\ProjectEvaluation\gochatfromsharp.metadata.v7.bin" />
+    <None Include=".vs\ProjectEvaluation\gochatfromsharp.projects.v7.bin" />
   </ItemGroup>
 
   <ItemGroup>
