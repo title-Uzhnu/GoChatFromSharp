@@ -5518,23 +5518,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {},
+    "C:\\Users\\rabin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\ChatTests\\ChatTests.csproj",
+      "projectUniqueName": "D:\\PP\\GoChatFromSharp\\ChatTests\\ChatTests.csproj",
       "projectName": "ChatTests",
-      "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\ChatTests\\ChatTests.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\ChatTests\\obj\\",
+      "projectPath": "D:\\PP\\GoChatFromSharp\\ChatTests\\ChatTests.csproj",
+      "packagesPath": "C:\\Users\\rabin\\.nuget\\packages\\",
+      "outputPath": "D:\\PP\\GoChatFromSharp\\ChatTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rabin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5599,7 +5599,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj": {}
+    "D:\\PP\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\DAL\\DAL.csproj": {
+    "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\DAL\\obj\\",
+        "projectPath": "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\rabin\\.nuget\\packages\\",
+        "outputPath": "D:\\PP\\GoChatFromSharp\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rabin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -72,24 +72,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj": {
+    "D:\\PP\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj",
+        "projectUniqueName": "D:\\PP\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj",
         "projectName": "GoChatFromSharp",
-        "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\GoChatFromSharp\\obj\\",
+        "projectPath": "D:\\PP\\GoChatFromSharp\\GoChatFromSharp\\GoChatFromSharp.csproj",
+        "packagesPath": "C:\\Users\\rabin\\.nuget\\packages\\",
+        "outputPath": "D:\\PP\\GoChatFromSharp\\GoChatFromSharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\rabin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Admin\\Documents\\GitHub\\GoChatFromSharp\\DAL\\DAL.csproj"
+              "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\PP\\GoChatFromSharp\\DAL\\DAL.csproj"
               }
             }
           }
@@ -155,7 +155,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
